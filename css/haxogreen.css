@@ -3,6 +3,10 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
+.texture {
+  background-image: url('../img/texture.png');
+}
+
 section {
   width: 100%;
 }
