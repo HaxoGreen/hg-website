@@ -5,11 +5,47 @@ body {
 
 .texture {
   background-image: url('../img/texture2.png');
+  background-position: center;
 }
 
 .slider {
   color: #ffffff;
   background-image: url('../img/texture1.png');
+  background-position: center;
+  overflow: hidden;
+}
+
+.texture .container, .white .container {
+  padding: 80px 0;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.btn-hg,
+.btn-hg:hover,
+.btn-hg:focus,
+.btn-hg:active  {
+    color: #1f2123;
+    border: solid 2px #1f2123;
+    width: 100%;
+    padding: 13px 20px;
+    padding-right: 30%;
+    line-height: 110%;
+    text-align: left;
+    background-image: url('../img/arrow_green.png');
+    background-position: 90%;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #757e86;
+  text-transform: uppercase;
 }
 
 section {
@@ -47,6 +83,7 @@ section.navigation {
 .jumbotron {
   text-align: center;
   background-color: transparent;
+
 }
 .jumbotron .btn {
   padding: 14px 24px;
