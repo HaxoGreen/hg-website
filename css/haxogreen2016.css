@@ -1,0 +1,75 @@
+html {
+
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  color: #ffffff;
+
+}
+.background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: #70bg32;
+  background-repeat:no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  background: linear-gradient(to right bottom, rgba(22,167,101,0.6), rgba(244,144,12,0.7));
+
+  background: linear-gradient(to right bottom, #0C9FBF, #00FC9B);
+  z-index: -1000;
+}
+header img {
+  padding: 20px 0;
+}
+h1 {
+  font-size: 3em;
+}
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  margin-bottom: 15px;
+}
+.card.blue{
+  background-color: rgba(12, 159, 191, 0.2);
+}
+.card.green{
+  background-color: rgba(0, 252, 155, 0.2);
+}
+.content {
+  padding: 10px;
+}
+.content h1, .content h2, .content h3 {
+  margin-top: 0;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+#Clouds {
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.address {
+  line-height: 1.3em;
+}
+footer {
+  background-color: rgba(255,255,255,0.6);
+  padding: 15px;
+  text-align: center;
+}
+footer img {
+  max-width: 250px;
+  max-height: 150px;
+  margin: 5px;
+}
