@@ -12,7 +12,7 @@
 
 function countdown () {
 
-  var HaxoGreenStart = moment([2016, 7, 28]);
+  var HaxoGreenStart = moment([2016, 6, 28]);
   var today = moment();
   $('.countdown').text( HaxoGreenStart.diff( today, 'days' ) );
 
