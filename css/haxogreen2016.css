@@ -73,3 +73,7 @@ footer img {
   max-height: 150px;
   margin: 5px;
 }
+a, a:link,a:hover,a:active {
+    text-decoration: none;
+    color: #fff
+}
